@@ -60,3 +60,13 @@ public class C04_BeforeClassAfterClass {
 
 
 }
+/*
+    @BeforeClass ve @AfterClass notasyonlari sadece static method'lar icin calisir.
+@BeforeClass ve @AfterClass kullanirsak olusturdugumuz @Test method'larinin hepsini ayni anda calistirip
+en son @AfterClass'i calistiririz.
+    Ama sadece @Before ve @After kullanirsak her test icin @Before ve @After'i kullanir.
+    ******       ********      ******
+    @BeforeClass--->Test01, Test02, Test03....-->@AfterClass
+    Before--> Test01---> After
+    Before--> Test02---> After
+ */
