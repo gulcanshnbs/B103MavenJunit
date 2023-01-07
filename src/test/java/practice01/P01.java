@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class P01 {
 
-    //-"amazin.com" adresine gidelim
+    //-"amazon.com" adresine gidelim
     //-bu web adresinin sayfa basligini(title) ve adres(url)ini yazdıralım
     //-title ve url'nin "spend" kelimesinin icerip icermedigini kontrol edelim
     //-Ardindan "trendyol.com" adresine gidelim
