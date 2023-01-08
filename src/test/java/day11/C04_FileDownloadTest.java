@@ -8,7 +8,7 @@ import utilities.TestBase;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class C04_fileDownloadTest extends TestBase {
+public class C04_FileDownloadTest extends TestBase {
 
     @Test
     public void fileDownloadTest(){
